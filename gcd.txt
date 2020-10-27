@@ -1,0 +1,14 @@
+VAR
+INT a, b, c;
+CHAR d;
+BEGIN
+READ(a);
+READ(b); R!
+c = 7;
+d = 'hello';
+WHILE (a != b) BEGIN
+IF ( a > b) THEN a = a-b;
+ELSE b = b-a;
+END
+WRITE(a);
+END.
